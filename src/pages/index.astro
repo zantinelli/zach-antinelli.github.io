@@ -303,7 +303,7 @@ const email = "zachantinelli@gmail.com";
 
       @media (max-width: 768px) {
         .container {
-          padding: 1.5rem;
+          padding: 1rem;
         }
 
         h1 {
@@ -312,6 +312,7 @@ const email = "zachantinelli@gmail.com";
 
         .hero {
           grid-template-columns: 1fr;
+          gap: 1.5rem;
         }
 
         .profile {
@@ -324,13 +325,24 @@ const email = "zachantinelli@gmail.com";
           height: 150px;
         }
 
+        .code-blocks {
+          width: 100%;
+        }
+
         .code-blocks pre {
           font-size: 0.85rem;
         }
 
+        .about,
+        .contact {
+          width: 100%;
+        }
+
         .about p,
-        .contact p {
-          font-size: 1rem;
+        .contact p,
+        .project-card p {
+          font-size: 1.0625rem;
+          line-height: 1.7;
         }
 
         .recent-project h2 {
