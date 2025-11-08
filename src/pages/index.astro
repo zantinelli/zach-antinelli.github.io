@@ -302,6 +302,14 @@ const email = "zachantinelli@gmail.com";
       }
 
       @media (max-width: 768px) {
+        .container {
+          padding: 1.5rem;
+        }
+
+        h1 {
+          font-size: 1.5rem;
+        }
+
         .hero {
           grid-template-columns: 1fr;
         }
@@ -316,8 +324,34 @@ const email = "zachantinelli@gmail.com";
           height: 150px;
         }
 
+        .code-blocks pre {
+          font-size: 0.85rem;
+        }
+
+        .about p,
+        .contact p {
+          font-size: 1rem;
+        }
+
+        .recent-project h2 {
+          font-size: 1.25rem;
+        }
+
+        .project-card {
+          padding: 1.5rem;
+        }
+
+        .project-card h3 {
+          font-size: 1.125rem;
+        }
+
         .social-links {
           flex-direction: column;
+        }
+
+        .social-links a {
+          width: 100%;
+          justify-content: center;
         }
       }
     </style>
